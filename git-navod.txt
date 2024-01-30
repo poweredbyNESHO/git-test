@@ -1,0 +1,26 @@
+cast_connected
+Připojeno
+Lektoři
+PRIMAKURZY.CZ
+VSCODE PROFESSOR MODE
+123456789101112131415161718192021222324252627282930313233343536
+uvnitr VSC prejdte do zalozky git (ctrl + shift + G)
+zde uvidite bud tlacitka init repo (tzn. GIT vpocitaci uz je)
+nebo uvidite download git (tzn. GIT jeste nemate)
+
+download
+stahnete si instalator (pro mac stahnete si binary)
+
+pri instalaci se dejte next dokud nenarzaite na vyber editoru
+vychozi hodnota je editor VIM, zmenime to na editor VSC
+
+…
+soubory mohou mit ruzne stavy:
+U - untracked (soubor je novy a jeste v historii neni)
+A - added (soubor je ve staging area v historii jeste neni, ale s dalsim commitem uz tma bude)
+M - modified (soubor v hitorii je ale lisi se od toho co je ve working area)
+D - deleted (soubor v historii existuje, ale uzivatel soubor ve working area smazal)
+
+
+nektere soubory a slozky chceme vyradit mimo git, aby je git vubec nevidel a nikdy je neverzoval
+k tomu se pouziva soubor ktery se jmenuje .gitignore
